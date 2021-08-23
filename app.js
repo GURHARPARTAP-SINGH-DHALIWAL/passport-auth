@@ -2,6 +2,8 @@ const express=require('express');
 const expressLayouts=require('express-ejs-layouts');
 const mongoose=require('mongoose'); 
 const db=require('./config/keys').MongoURI;
+const session=require('express-session');
+const flash=require('connect-flash');
 
 const port=process.env.PORT||8000;
 
@@ -21,6 +23,22 @@ app.set('view engine','ejs');
 
 // Body Parser to convert form data to JSON  
 app.use(express.urlencoded({extended:false}));
+
+
+// express session
+app.use(session({
+    secret: 'I Will not tell you this key',
+    resave: false,
+    saveUninitialized: true,
+  
+  }));
+
+app.use(flash());
+app.use((req,res,next)=>{
+    res.locals.success_msg=req.flash('success_msg');
+    res.locals.error_msg=req.flash('error_msg');
+    next(); //goto next middleware oops there is none or there is lol
+});
 
 
 
