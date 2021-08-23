@@ -1,9 +1,17 @@
 const express=require('express');
 const expressLayouts=require('express-ejs-layouts');
+const mongoose=require('mongoose'); 
+const db=require('./config/keys').MongoURI;
 
 const port=process.env.PORT||8000;
 
 const app=express();
+
+
+// connect to MongoDB
+mongoose.connect(db,{useNewUrlParser:true})
+        .then(()=>console.log("connected to MongoDB"))
+        .catch(err=>console.log("Failed to connect :",err));
 
 // EJS part
 
