@@ -4,14 +4,21 @@ This app is made using Node.js, Express, Passport etc. It can used as a template
 
 ## Tech. Used
 
-*Node.js
-*Express
-*Passport
-*Mongoose
-*EJS
+* Node.js
+
+* Express
+
+* Passport
+
+* Mongoose
+
+* EJS
+
 * HTML
-*CSS
-*MongoDB
+
+* CSS
+
+* MongoDB
 
 ## Run Locally
 
