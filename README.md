@@ -1,8 +1,9 @@
-#Passport Authentication System [Deployment](https://auth-gsd.herokuapp.com/)
+# Passport Authentication System [Deployment](https://auth-gsd.herokuapp.com/)
 
 This app is made using Node.js, Express, Passport etc. It can used as a template for authentication in any website with minor changes.
 
-##Tech. Used
+## Tech. Used
+
 *Node.js
 *Express
 *Passport
@@ -12,7 +13,7 @@ This app is made using Node.js, Express, Passport etc. It can used as a template
 *CSS
 *MongoDB
 
-##Run Locally
+## Run Locally
 
 Clone the repo or download zip and run the following commands
 
