@@ -14,9 +14,7 @@ This app is made using Node.js, Express, Passport etc. It can used as a template
 
 * EJS
 
-* HTML
-
-* CSS
+* Bootstrap
 
 * MongoDB
 
