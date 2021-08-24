@@ -27,3 +27,6 @@ Clone the repo or download zip and run the following commands
 `npm install`
 
 `npm run dev`
+
+
+## `In case of any bugs make a pull request and help in improving the template`
