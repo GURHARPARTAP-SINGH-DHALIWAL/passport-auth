@@ -29,4 +29,4 @@ Clone the repo or download zip and run the following commands
 `npm run dev`
 
 
-## `In case of any bugs make a pull request and help in improving the template`
+ In case of any bugs make a pull request and help in improving the template
